@@ -1,0 +1,61 @@
+.productList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: whitesmoke;
+}
+.assured {
+  display: inline;
+  width: 4rem;
+  height: 2rem;
+}
+
+.card-container {
+  display: flex;
+  height: fit-content;
+  flex-wrap: wrap;
+  width: 15rem;
+  padding: 1rem;
+}
+
+.long-cards {
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
+  min-width: 10rem;
+  height: 25rem;
+}
+
+.productImage {
+  padding: 0.1rem;
+  width: 10rem;
+  min-width: 10rem;
+  height: 15rem;
+}
+
+.card-text {
+  margin: 0.2rem;
+  padding: 0.2rem;
+  text-align: center;
+  color: grey;
+  font-weight: bold;
+}
+
+.price {
+  color: #047bd5;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+}
+.Filter {
+  width: 50vw;
+  height: 60vw;
+}
+
+.clear {
+  margin: 1rem;
+}
